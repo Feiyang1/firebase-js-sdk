@@ -26,7 +26,7 @@ import { registerCoreComponents } from './src/registerCoreComponents';
 if (isBrowser() && (self as any).firebase !== undefined) {
   logger.warn(`
     Warning: Firebase is already defined in the global scope. Please make sure
-    Firebase library is only loaded once.
+    Firebase library is only loaded once!
   `);
 
   // eslint-disable-next-line
