@@ -1,6 +1,6 @@
 {
   "name": "firebase",
-  "version": "7.14.4",
+  "version": "7.14.5",
   "description": "Firebase JavaScript library for web and Node.js",
   "author": "Firebase <firebase-support@google.com> (https://firebase.google.com/)",
   "license": "Apache-2.0",
@@ -45,7 +45,7 @@
   "module": "dist/index.esm.js",
   "react-native": "dist/index.rn.cjs.js",
   "dependencies": {
-    "@firebase/app": "0.6.3",
+    "@firebase/app": "0.6.4",
     "@firebase/app-types": "0.6.0",
     "@firebase/auth": "0.14.5",
     "@firebase/database": "0.6.2",
