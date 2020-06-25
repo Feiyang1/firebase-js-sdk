@@ -15,6 +15,9 @@ jobs:
         with:
           ## fetch all history for all branches and tags, so we can compare with master
           fetch-depth: 0
+      
+      - name: Show branches
+        run: git branch
 
       - name: Setup Node.js 12.x
         uses: actions/setup-node@master
@@ -23,6 +26,6 @@ jobs:
 
       - name: Install Dependencies
         run: yarn
-
+        
       - name: Check if any Changeset file exists
         run: yarn changeset status --since=master
