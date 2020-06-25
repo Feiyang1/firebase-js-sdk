@@ -11,10 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Repo
-        uses: actions/checkout@master
-        with:
-          ## fetch all history for all branches and tags, so we can compare with master
-          fetch-depth: 0
+        uses: actions/checkout@v2
       
       - name: Show branches
         run: git branch
